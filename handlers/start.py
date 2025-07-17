@@ -1,5 +1,5 @@
 from aiogram import Router, F
-from aiogram.types import Message, CallbackQuery
+from aiogram.types import Message
 from aiogram.filters import CommandStart
 from keyboards.reply_kb import start_kb, service_kb, bid
 from aiogram.fsm.context import FSMContext
